@@ -5,7 +5,7 @@ Preciso de ajuda para entender um trecho de código Java de um serviço de pagam
 ```java
 public class PagamentoService {
 
-        private readonly string connectionString  = "mongodb://usuario:senha@host:27017/ClienteFinanceiroDB";
+        private readonly string connectionString  = "mongodb://STRING_DE_CONEXÃO";
 
         public bool ProcessarPagamento(decimal valor, string cpfCliente) {
             if (valor > 10000) {
